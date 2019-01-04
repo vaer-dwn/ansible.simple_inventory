@@ -1,0 +1,5 @@
+thanquol ansible_host=1.2.3.4 inv_groupnames='["CORPORATE","DATABASE"]'
+lurk inv_groupnames='["CORPORATE","DMZ","WEBSERVER"]'
+gotrek ansible_python_interpreter=/usr/bin/python26 inv_groupnames='["SECURITY","DMZ","PENTESTS","WORKER"]'
+felix inv_groupnames='["SECURITY","DMZ","PENTEST","GUI"]'
+teclis corp_env=devel inv_groupnames='["DEVEL","NO_TOWER"]'
